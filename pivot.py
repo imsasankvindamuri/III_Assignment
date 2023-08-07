@@ -4,7 +4,7 @@ for i in range(num):
     entry=int(input("Enter element: "))
     list1.append(entry)
 
-# file=open("./inpmerge.txt")
+# file=open("./inppivot.txt")
 # full=file.readlines()
 # list1=[]
 # for i in full:
@@ -15,8 +15,8 @@ for i in range(num):
 
 # import random as rand
 # list1=[]
-# for i in range(10000):
-#     list1.append(rand.randint(0,1000000))
+# for i in range(1000000000):
+#     list1.append(rand.randint(0,1000000000))
 
 print(f"\n\nUnorganized list: {list1}\n\n")
 
