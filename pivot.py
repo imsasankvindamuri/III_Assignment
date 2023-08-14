@@ -1,8 +1,8 @@
-num=int(input("Enter Number of Elements: "))
-list1 = []
-for i in range(num):
-    entry=int(input("Enter element: "))
-    list1.append(entry)
+# num=int(input("Enter Number of Elements: "))
+# list1 = []
+# for i in range(num):
+#     entry=int(input("Enter element: "))
+#     list1.append(entry)
 
 # file=open("./inppivot.txt")
 # full=file.readlines()
@@ -13,10 +13,10 @@ for i in range(num):
 #     except ValueError:
 #         continue
 
-# import random as rand
-# list1=[]
-# for i in range(1000000000):
-#     list1.append(rand.randint(0,1000000000))
+import random as rand
+list1=[]
+for i in range(500000):
+    list1.append(rand.randint(0,1000000000))
 
 print(f"\n\nUnorganized list: {list1}\n\n")
 
